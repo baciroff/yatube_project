@@ -5,7 +5,7 @@ def index(request):
     return HttpResponse('Главная страница')
 
 def group_posts(request, slug):
-    return HttpResponse(f'Что такое Lorem Ipsum?'
+    return HttpResponse(f'{slug}'
                         f'Lorem Ipsum - это текст-"рыба", часто используемый '
                         f'в печати и вэб-дизайне. Lorem Ipsum является '
                         f'стандартной "рыбой" для текстов на латинице с '
